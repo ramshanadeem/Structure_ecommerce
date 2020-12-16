@@ -46,8 +46,8 @@ function App() {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" className={classes.title}>
-              PandaMart
-          </Typography>
+              <img style={{ height: '60px' }} src='https://cdn.shopify.com/s/files/1/2466/2147/files/BTW_LOGO_BLACK_410x.png?v=1573816919'></img>
+            </Typography>
             <Button color="inherit"><Link to="/" className="link">Home</Link></Button>
             <Button color="inherit"><Link to="/product" className="link">Product</Link></Button>
             <Button color="inherit"><Link to="/btn" className="link">Add To Cart</Link></Button>
